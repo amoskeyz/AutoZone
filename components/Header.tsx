@@ -3,7 +3,7 @@ import { heightPercentageToDP as hp } from "react-native-responsive-screen";
 import { ArrowLeft2, CloseCircle } from "iconsax-react-native";
 import { useContext } from "react";
 import { AppContext } from "../store/AppContext";
-const navbarHeight = hp("11.5%");
+const navbarHeight = hp("11.5%") ;
 
 export default function Header({ navigation }: any) {
   const { year, make } = useContext(AppContext);
